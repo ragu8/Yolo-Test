@@ -11,7 +11,8 @@ This repository contains scripts and instructions for running YOLO (You Only Loo
 │ ├── Test-02.jpeg
 │ ├── Test-03.jpeg
 │ └── Test-04.jpeg
-└── yolov8n.pt 
+└── yoloV8n.pt 
+
 ```
 
 ## Instructions
@@ -20,12 +21,14 @@ This repository contains scripts and instructions for running YOLO (You Only Loo
 
     ```
     git clone https://github.com/ragu8/Yolo-Test
+    
     ```
 
 ### 2. Navigate into the cloned directory:
 
     ```
     cd Yolo-Test
+    
     ```
 
 ### 3. Create and activate a virtual environment:
@@ -33,25 +36,32 @@ This repository contains scripts and instructions for running YOLO (You Only Loo
     ```
     python3 -m venv .yolo
     source .yolo/bin/activate
+    
     ```
 
 ### 4. Install the required dependencies:
 
     ```
+    
     pip install ultralytics
+    
     ```
 
 ### 5. Run the object detection script:
 
     ```
+    
     chmod +x run.sh
     ./run.sh
+    
     ```
 
 ### 6. After the script finishes executing, you can find the predicted images in the following directory:
 
     ```
+    
     Yolo-Test/runs/detect/
+    
     ```
 
 ## Note
