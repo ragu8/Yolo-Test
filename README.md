@@ -18,32 +18,32 @@ This repository contains scripts and instructions for running YOLO (You Only Loo
 
 ### 1. Clone the repository:
 
-    ```bash
+    ```
     git clone https://github.com/ragu8/Yolo-Test
     ```
 
 ### 2. Navigate into the cloned directory:
 
-    ```bash
+    ```
     cd Yolo-Test
     ```
 
 ### 3. Create and activate a virtual environment:
 
-    ```bash
+    ```
     python3 -m venv .yolo
     source .yolo/bin/activate
     ```
 
 ### 4. Install the required dependencies:
 
-    ```bash
+    ```
     pip install ultralytics
     ```
 
 ### 5. Run the object detection script:
 
-    ```bash
+    ```
     chmod +x run.sh
     ./run.sh
     ```
